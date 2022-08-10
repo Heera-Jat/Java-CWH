@@ -1,0 +1,16 @@
+//Sum of three number 
+public class Program
+{
+    public static void main(String[] args) {
+    
+    System.out.println("Sum of three number");
+    
+   int Num1 = 6;
+   int Num2 = 7;
+   int Num3 = 8;
+   int sum = Num1 + Num2 + Num3;
+   
+   System.out.println(sum);
+        
+    }
+}
