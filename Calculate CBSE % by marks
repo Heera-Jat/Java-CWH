@@ -1,0 +1,32 @@
+Calculate % CBSE marks out of 500        import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+        System.out.println("calculate % of CBSE marks");
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number subject-1");
+        
+        float a = sc.nextFloat();
+        
+        System.out.println("Enter number subject-2");
+
+        float b = sc.nextFloat();
+        
+        System.out.println("Enter number subject-3");
+
+        float c = sc.nextFloat();
+        
+        System.out.println("Enter number subject-4");
+
+        float d = sc.nextFloat();
+        
+        System.out.println("Enter number subject-5");
+
+        float e = sc.nextFloat();
+        
+        float sum = (a+b+c+d+e)/500*100;
+        System.out.println("The % of these numbers is");
+        System.out.println(sum);
+    }
+}
